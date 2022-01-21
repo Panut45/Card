@@ -1,0 +1,96 @@
+.content p {
+    color: #9f9f9f;
+}
+
+.content h1 {
+    margin: 1rem;
+}
+
+.content h3 {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.img img {
+    width: 100%;
+}
+
+.ft-right {
+    padding-right: 2rem;
+}
+
+.ft-left p {
+    margin-left: .5rem;
+}
+
+.ft-left img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.ft-left {
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: brown; */
+    height: 60px;
+}
+
+.content {
+    text-align: center;
+    border-bottom: 2px solid #e5e5e5;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* ถ้าไม่สร้าง div class="center" มาครอบ ให้ใส่ flex-direction: column; */
+    padding: 1rem;
+}
+
+.img {
+    height: 250px;
+    background-color: brown;
+    overflow: hidden;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.tag {
+    color: #fff;
+    background-color: rgb(255, 82, 154);
+    position: absolute;
+    z-index: 99; /* กำหนดให้เป็น layer ล่าสุด */
+    top: -12px;
+    left: 45%;
+    transform: translateX(-50px);
+    padding: .3rem 3rem;
+    border-radius: 100px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.main {
+    width: 360px;
+    margin: 2rem auto;
+    height: 560px;
+    /* box-shadow: x y ความฟุ้ง สีเงา; */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    /* ตัดส่วนที่เกินของกล่องลูกออกไป */
+    /* overflow: hidden; */
+
+    position: relative;
+}
+
+/* รีเซ็ตค่า */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* เวลาคำนวนไม่ต้องคำนวนกล่อง */
+    font-family: Arial, Helvetica, sans-serif;
+}
